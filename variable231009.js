@@ -5,5 +5,17 @@
 // 기본구조 -> 선언 키워드 식별자(변수명) = 값
 
 var name = 'KIM'; // 문자열 String은 작은따옴표 혹은 큰 따옴표로 감싸야된다. 
-let score = 70; // 
+let score = 70; // 숫자열
 let flag = true // boolean값 true, false
+const number = [1, -2, 3.5, 10]; // 배열 array
+const person = {name: 'LEE', age: 20, gender: 'man'} // 객체 object
+
+// var, let, const
+// 1. var : 요즘엔 사용하지 않는다.
+// 2. let : 재할당 가능 -> 재할당을 통해서 저장된 값 바꾸기 가능
+// let의 예를 좀 살펴보자. 
+
+let age = 10;
+console.log(age); // 10이 출력될거야.
+
+
