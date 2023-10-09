@@ -18,4 +18,14 @@ const person = {name: 'LEE', age: 20, gender: 'man'} // 객체 object
 let age = 10;
 console.log(age); // 10이 출력될거야.
 
+age = 15;
+console.log(age); // 15가 출력됨. let은 가변한다. 그래서 '변수' 라는 말에 최적화 되어 있음.
+
+// 3. Const : 재할당 불가능 , '상수'를 저장할 때 사용. 변수가 아님에 유의 
+const old = 10; // old 10선언
+//old = 15; // 재할당불능
+// console.log(age); // 10뜬다. 15안됨. 
+
+// 이렇듯 let과 const의 차이를 잘 숙지하자. 
+
 
